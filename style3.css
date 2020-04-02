@@ -18,25 +18,27 @@ a:hover, a:active {
   justify-content: flex-end; /*les menus sont vers la fin*/
   flex-direction: row; /* droite est la direction des menus*/
   flex-wrap: wrap; /*les menus vont à la ligne lorsqu'il n'y a plus la place */
-  /* marge extérieure de 20 pixels*/
-}
+ }
 
 .one
 {
 	margin: 15px; 
 	text-decoration: none;
+	color: lightgray;
 }
 
 .two
 {
 	margin: 15px; 
 	text-decoration: none;
+	color: lightgray;
 }
 
 .three
 {
 	margin: 15px; 
-	font-weight: 20px;
+	font-weight: 30px;
+	font-size: 20px;
 }
 
 a.link_button
@@ -52,16 +54,74 @@ display: inline-block;
 
 a.link_button:hover {font-size:110%;}
 
-.button {
-  
-  color: black;
-  padding: 3px;
-  margin: 23px;
-  cursor: pointer;
-  background-color: blue;
-  border: none;
+.sec
+{
+
+	display:flex;
+  	justify-content: center; /*les menus sont vers la fin*/
+  	flex-direction: column; /* droite est la direction des menus*/
+  	flex-wrap: wrap;
+  	align-items: center;
+  	height: 100%;
+  	margin-top: 6%;
 }
 
-ul {
-  list-style-type: none;
+.sec1
+{
+	
+	margin-top: 10px;
+	margin-left: 1px;
+}
+
+/* input[type=text]*/ #search{
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png'); /*url('micro.png');*/
+  background-position: 15px center;        /*right bottom ; */
+  background-repeat: no-repeat;            /*repeat*/
+  padding: 12px 20px 12px 40px;
+  background-size: 20px 30px;
+  margin-top: 20px;
+  margin-right: 330px;
+}
+
+.sec3
+{
+	margin-top: 30px;
+	margin-left: 1px;
+}
+
+.button
+{
+	display: inline-block;
+	background-color: lightgray;
+  	box-sizing: border-box;
+  	border: 1px solid #ccc;
+  	border-radius: 5px;
+  	color: lightgray;
+  	padding: 8px 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 16px;
+  	cursor: pointer;
+  	text-decoration: none;
+}
+
+a.button:hover {text-decoration: none;}
+a.texte:visited {text-decoration: none; color: maroon;}
+a.texte:hover {text-decoration: none;}
+
+.sec4
+{
+	margin-top: 30px;
+	margin-left: 60px;	
+}
+
+.corona
+{
+margin-top: 100px;
 }
